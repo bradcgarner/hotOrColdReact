@@ -9,11 +9,11 @@ import GuessList from './guesslist';
 
 export default function Game() {
   return (
-    <main>
+    <section class="game">
       <GuessClue text='clue'/> {/*figure out how to set this  */}
-      <GameForm />
-      <GuessCount />
+      <GuessForm />
+      <GuessCount count="0" />
       <GuessList />
-    </main>
+    </section>
   );
 }
