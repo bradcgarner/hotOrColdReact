@@ -1,0 +1,13 @@
+root
+  Game main
+    Header
+      nav (what & new game are li)
+      h1 (Hot or Cold)
+    GameBoard section
+      GuessClue h2 (hot, cold, etc.)
+      GameForm form
+        input
+        button
+      GuessCount paragraph
+      GuessList ul
+    
