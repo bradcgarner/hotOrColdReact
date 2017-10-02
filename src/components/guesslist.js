@@ -2,9 +2,8 @@
 
 import React from 'react';
 
-export default function GuessList() {
-  const rawGuesses = [1, 78, 99, 69, 22, 74];
-  const guesses = rawGuesses.map((guess, index) => {
+export default function GuessList(props) {
+  const guesses = props.guesses.map((guess, index) => {
     return (
       <li key={index}>
         {guess}
